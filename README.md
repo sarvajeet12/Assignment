@@ -164,11 +164,4 @@ Cmpy Project/
 
 ---
 
-## ✨ Author & License
-
-- **Author:** CSTech Infosolutions Pvt. Ltd. Assignment
-- **License:** ISC
-
----
-
 > _Empowering your team with seamless agent management and list distribution!_
