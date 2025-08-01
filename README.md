@@ -143,7 +143,49 @@ Cmpy Project/
 
 ---
 
-## 📚 Getting Started
+## 👤 Initial Admin User (Insert Example)
+
+To get started, insert an initial admin user into your MongoDB database. You can use the following JSON structure (replace the password hash with a bcrypt hash of `password123`):
+
+```json
+{
+  "email": "admin@example",
+  "password": "$2a$10$REPLACE_WITH_HASHED_PASSWORD"
+}
+```
+
+> **Tip:** To generate a bcrypt hash for `password123`, you can use an online bcrypt generator or run this in Node.js:
+>
+> ```js
+> const bcrypt = require("bcryptjs");
+> bcrypt.hash("password123", 10, (err, hash) => console.log(hash));
+> ```
+
+---
+
+## ⚙️ Example .env File Setup
+
+### For `client/.env`:
+
+```env
+# Vite environment variables for the frontend
+VITE_BACKEND_URL="http://localhost:5000/api"
+```
+
+### For `server/.env`:
+
+```env
+# Database
+MONGO_URI=your_mongodb_connection_string
+
+# Port
+PORT=5000
+
+# JWT Secret
+JWT_SECRET=your_jwt_secret
+```
+
+---
 
 1. **Clone the repository**
 2. **Install dependencies** in both `client` and `server` folders:
