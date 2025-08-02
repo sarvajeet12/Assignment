@@ -20,7 +20,7 @@ const app = express();
 
 const corsOption = {
   // origin: "http://localhost:5173",
-  origin: "http://localhost:5173",
+  origin: "https://assignment-client-x254.onrender.com",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
   allowedHeaders: ['Authorization', 'Content-Type', 'x-auth-token'],
