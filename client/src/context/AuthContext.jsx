@@ -2,7 +2,6 @@ import React, { createContext, useState, useEffect, useContext } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
-console.log(`${backendUrl}/auth/login`);
 
 const AuthContext = createContext();
 
