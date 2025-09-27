@@ -6,7 +6,7 @@
 
 ## 🚀 Project Overview
 
-This project is a robust full-stack web application designed for managing agents and distributing contact lists among them. Built with a modern tech stack (React, Vite, Node.js, Express, MongoDB), it features secure authentication, agent CRUD, CSV/XLSX upload, and automatic list distribution. The system is ideal for call centers, sales teams, or any organization needing to assign leads or contacts to multiple agents efficiently.
+This project is a robust full-stack web application designed for managing agents and distributing contact lists among them. Built with a modern tech stack (React, Vite, Node.js, Express, MongoDB), it features secure authentication, agent CRUD, CSV/XLSX upload, and automatic list distribution. The system is ideal for call centers, sales teams, or any organization needing to assign leads or contacts to multiple agents efficiently
 
 ---
 
