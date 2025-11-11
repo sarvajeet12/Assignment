@@ -1,4 +1,4 @@
-# 🏢 Assignment
+# 🏢 Assignmen
 
 > **A Full Stack Agent Management & List Distribution System**
 
