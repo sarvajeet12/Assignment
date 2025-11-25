@@ -1,6 +1,6 @@
 # 🏢 Assignment
 
-> **A Full Stack Agent Management & List Distribution System**
+> **A Full Stack Agent Management & Lis Distribution System**
 
 ---
 
